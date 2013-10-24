@@ -1,0 +1,60 @@
+/*Personal Porfolio Site
+ Susan Corbin
+ silverliningdesignandprogramming.com*/
+@charset "utf-8";
+/* CSS Document */
+
+
+/*Sets colour for the background*/
+body{
+	background: #06F; 
+	font-size:18px;
+}
+
+/*Centres the navigation bar*/
+#header{
+	text-align:center;
+	font-size:30px;
+}
+
+.currentPage
+{
+	color:#906;
+}
+
+/*Sets controls for nav bar*/
+a{
+	color: #C09;
+	text-decoration:none;
+}
+
+a:hover{
+	color: #C9F;
+}
+
+/*Sets margins for service1 div*/
+#service1{
+	margin-top: 100px;
+	margin-left: 375 px;
+	margin-right: 375 px;
+}
+
+/*Sets margins for service2 div*/
+#service2{
+	margin-top: 50px;
+	margin-left: 375 px;
+	margin-right:375 px;
+}
+
+#service3{
+	margin-top: 50px;
+	margin-left: 375 px;
+	margin-right: 375 px;
+}
+
+/*Centres text in footer*/
+#footer{
+	text-align: center;
+}
+
+

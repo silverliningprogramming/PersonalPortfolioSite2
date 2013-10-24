@@ -1,0 +1,44 @@
+/*Personal Porfolio Site
+ Susan Corbin
+ silverliningdesignandprogramming.com*/
+@charset "utf-8";
+/* CSS Document */
+
+/*Sets the colour and font size for the page*/
+body{
+	background: #06F; 
+	font-size:18px;
+	color:white;
+}
+
+/*Centering of Nav bar*/
+#header{
+	text-align:center;
+	font-size:30px;
+}
+
+.currentPage
+{
+	color:#906;
+}
+
+#github{
+	text-align: center;
+	margin-top: 200px;
+}
+
+/*Centering of Copyright text*/
+#footer{
+	text-align:center;
+	margin-top: 200px;
+}
+
+/*Controls for Nav bar*/
+a{
+	color: #C09;
+	text-decoration:none;
+}
+
+a:hover{
+	color: #C9F;
+}

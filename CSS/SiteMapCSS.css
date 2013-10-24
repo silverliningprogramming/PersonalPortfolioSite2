@@ -1,0 +1,55 @@
+/*Personal Porfolio Site
+ Susan Corbin
+ silverliningdesignandprogramming.com*/
+@charset "utf-8";
+/* CSS Document */
+
+/*Sets the colour and font size for the page*/
+body{
+	background: #06F; 
+	font-size: 18px;
+}
+
+/*Sets the font size and colour and centres the text*/
+#header{
+	font-size: 30px;
+	text-align: center;
+	color: #906;
+}
+/*Sets the margins for the map div*/
+#map{
+	margin-left: 400px;
+	margin-right: 400px;
+	margin-top: 100px;
+}
+
+/*Puts column 1 on the left*/
+#column1{
+	float:left;
+}
+
+/*Puts column 2 on the right*/
+#column2{
+	float:right;
+}
+
+/*Sets the font size and color for the column headers*/
+#column1header{
+	font-size:22px;
+    color:#906;
+}
+
+#column2header{
+	font-size:22px;
+	color:#906;
+}
+
+/*Sets the colours for the a tags in normal and hover mode*/
+a{
+	color: #c09;
+	text-decoration: none;
+}
+
+a:hover{
+	color: #C9F;
+}

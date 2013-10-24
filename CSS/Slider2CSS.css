@@ -1,0 +1,41 @@
+/*Personal Porfolio Site
+ Susan Corbin
+ silverliningdesignandprogramming.com*/
+@charset "utf-8";
+/* CSS Document */
+
+
+/*Sets colour and font size for the page*/
+body{
+	background: #06F; 
+	color:white;
+	font-size:18px;
+}
+
+/*Sets margins for project div*/
+#slider2{
+	margin-top: 125px;
+	margin-left: 375px;
+	margin-right: 375px;
+}
+
+#directions{
+	margin-top: 50px;
+	margin-left: 375px;
+}
+
+a{
+	color: #C09;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #C9F;
+}
+
+/*Centres the footer text*/
+#footer{
+	text-align: center;
+}
+
+

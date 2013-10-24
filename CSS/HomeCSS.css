@@ -1,0 +1,106 @@
+/*Personal Porfolio Site
+ Susan Corbin
+ silverliningdesignandprogramming.com*/
+@charset "utf-8";
+/* CSS Document */
+
+/*Sets the colour and font size for the page*/
+body{
+	background: #06F; 
+	color:white;
+	font-size:18px;
+}
+
+/*Positions the logo*/
+#logo{
+	position: absolute;
+	margin-top: 50px;
+	margin-left: 50px;
+	width: 200px;
+}
+
+/*Positions Nav bar*/
+#header{
+	font-size:30px;
+	position: absolute;
+	margin-top: 225px;
+	margin-left: 350px;
+}
+
+
+.currentPage
+{
+	color:#906;
+}
+
+/*Sets the colours of the nav bar normally and on hover*/
+a{
+	color: #C09;
+	text-decoration:none;
+}
+
+a:hover{
+	color: #C9F
+}
+
+/*Sets the position of the divs*/
+#welcome{
+	font: Arial, Helvetica, sans-serif;
+	position: absolute;
+	margin-top: 350px;
+	margin-left: 350px;
+	width: 650px;
+}
+
+#tagline{
+	position: absolute;
+	margin-left: 350px;
+	margin-top: 475px;
+	width: 650px;
+}
+#mission{
+	position: absolute;
+	margin-left: 350px;
+	margin-top: 600px;
+	width: 650px;
+}
+
+#slider{
+	position: absolute; 
+	margin-left: 350px;
+	margin-top: 750px;
+	width: 600px;
+}
+
+#connected{
+	position: absolute;
+	margin-top: 930px;
+	margin-left: 1050px;
+}
+
+/*Sets up a space between the LinkedIn and Facebook logos*/ 
+img.left{
+	margin-right: 10px;
+}
+
+/*Positions the button*/
+#button{
+	position: absolute;
+	margin-left: 350px;
+	margin-top: 1250px;
+}
+/*Positions the directions for the slider*/
+#info{
+	position: absolute;
+	margin-left: 50px;
+	margin-top: 900px;
+	margin-right: 1100px;
+}
+
+/*Positions the footer*/
+#footer{
+	position: absolute;
+	margin-top: 1350px;
+	margin-left: 450px;
+	text-align: center;
+}

@@ -1,0 +1,58 @@
+/*Personal Porfolio Site
+ Susan Corbin
+ silverliningdesignandprogramming.com*/
+@charset "utf-8";
+/* CSS Document */
+
+/*This is the page font size and colour*/
+body{
+	background: #06F;
+	color:white; 
+	font-size:18px;
+}
+
+/*This centres the nav bar*/
+#header{
+	text-align:center;
+	font-size:30px;
+}
+
+.currentPage
+{
+	color:#906;
+}
+
+/*This controls the nav bar*/
+a{
+	color: #C09;
+	text-decoration:none;
+}
+
+a:hover{
+	color: #C9F;
+}
+/*Sets up the contact div*/
+#contact{
+	text-align:center;
+	margin-top: 150px;
+}
+/*Sets the colour for the phone numbers and e-mail address*/
+#contact strong {
+	color: #C9F;
+}
+
+/*Sets the margins for the connected div*/
+#connected2{
+	margin-top: 150px;
+	margin-left: 1000px;
+}
+
+/*Sets up a space between the LinkedIn and Facebook logos*/ 
+img.left{
+	margin-right: 10px;
+}
+
+/*Centres the Copyright information*/
+#footer{
+	text-align: center;
+}

@@ -1,0 +1,81 @@
+<!-- Personal Porfolio Site
+     Susan Corbin 
+     silverliningdesignandprogramming.com
+     Home Page for website -->
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Home - Susan</title>
+<link rel="stylesheet" href="CSS/HomeCSS.css" />
+
+<!--Slider is from woothemes.com/flexslider-->
+<link rel="stylesheet" href="CSS/flexslider.css" type="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+<script src="JavaScript/jquery.flexslider.js"></script>
+<script type="text/javascript" charset="utf-8">
+  $(window).load(function() {
+    $('.flexslider').flexslider();
+  });
+</script>
+
+</head>
+
+<body>
+<div id="header">
+<!--navigation bar for page-->
+	<a class="currentPage" href="home.html">Home</a> <a href="About.html">About Me</a> <a href="Projects.html">Projects</a> <a 		    href="Services.html">Services</a> <a href="Github.html">Github</a> <a href="Contact.html">Contact Me</a>
+</div>
+<!--Logo placement-->
+<div id="logo">
+	<p><img src="Images/Logo1.jpg" alt="Company Logo" width="200" height="200"/></p>
+</div>
+<!--divs for the page-->
+<div id="welcome">
+	<p>Welcome to Silver Lining Design and Programming. My name is Susan Corbin and I am a 3rd year student from Georgian College 																											       in Barrie, Ontario.  At this time I am looking for a co-op placement which could eventually lead to a full time position.
+       This website is intended to introduce you to the work completed and the services available by Silver Lining Design and       Programming.</p>
+</div>
+<div id="tagline">
+	<p>Silver Lining Design and Programming provides services including website design and production, mainframe programming,       animation services work with java program language and project management.  All services are provided in a professional and 	   timely manner with an eye on customer satisfaction in everything I do.</p>
+</div>
+<div id="mission">
+	<p>I have always had an interest in computers and how they work.  To be able to work with computers for a living is very 			       exciting to me.  Providing good quality service is important to me because in business today it can be sadly lacking. A       happy customer is the best result you can possibly have after completing a project and having that keeps me working as hard       as I possibly can.</p>
+</div>
+<div id="slider">
+	<div class="flexslider">
+  		<ul class="slides">
+    		<li>
+      			<a href="Slider1.html"><img src="Images/Scott.jpg" alt= "Aerial Photography Website" width="600" height="400"/></a                >
+    		</li>
+   			<li>
+      			<a href="Slider2.html"><img src="Images/Robot.jpg" alt= "Hovering Robot Assignment" width="600" height="400" 								                /></a>
+    		</li>
+    		<li>
+      			<a href="Slider3.html"><img src="Images/COBOL.jpg" alt= "COBOL Assignment" width="600" height="400"/> </a>
+    		</li>
+  		</ul>
+	</div>
+</div>
+
+<div id="connected">
+	<h3>Follow me on:</h3>
+	<a href="http://www.linkedin.com/profile/view?id=203466967&authType=name&authToken=DCIs&trk=miniprofile-primary-view-button">		    <img src="Images/LinkedIn.jpg" alt="Linked In" width="50" height="50" class="left"/></a> <a href=                      									    "http://www.facebook.com/susan.corbin.714"><img src="Images/Facebook.jpg" alt="Facebook" width="50" height="50" class="right"/		    ></a>
+</div>
+<!--Call to Action Button
+Button code from http://stackoverflow.com/questions/6393827/can-i-nest-a-button-element-inside-an-a-using-html5-->
+<div id="button">
+	<form style="display: inline" action="Contact.html" method="get">
+  		<button>To Reach Me For More Information Click Here</button>
+	</form>
+</div>
+<div id="info">
+	<p>For information about the projects shown in the photos click on the appropriate photo.</p>
+</div>
+
+<!--Page footer-->
+<div id="footer">
+	<p><a href="TermsofUse.html">Terms of Use</a><a href="SiteMap.html">Site Map</a></p>
+	<p>&copy; Copyright Silver Lining Design and Programming 2013</p>
+</div>
+</body>
+</html>
