@@ -6,6 +6,10 @@
 @charset "utf-8";
 /* CSS Document */
 
+body{
+	font-family: "Enriqueta", sans serif;
+}
+
 /*Centres logo on the screen*/
 img.first{
 	margin-right:auto;

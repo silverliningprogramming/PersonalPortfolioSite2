@@ -8,6 +8,7 @@
 /*Sets colour and font size for the page*/
 body{
 	background: #06F;
+	font-family: "Enriqueta", sans serif;
 	font-size:18px;
 	color:white;
 }
