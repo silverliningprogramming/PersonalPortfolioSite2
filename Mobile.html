@@ -10,8 +10,8 @@
 <link href="http://fonts.googleapis.com/css?family=Enriqueta" rel="stylesheet" type="text/css">
 <meta name = "viewport" content = "width=device-width, height=device-height, initial-scale=1">
 <link rel="stylesheet" href="CSS/MobileCSS.css" />
-<script type= "text/javascript" src="JavaScript/detectmobilebrowser.js.txt"></script>
 
+<link rel="stylesheet" href="CSS/themes/Susan1.min.css" />
 <link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.css" />
 <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
 <script src="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.js"></script>
@@ -43,28 +43,28 @@
     </div>		
 	<div data-role="navbar" data-iconpos="top">	
 		<ul>
-    		<li><a href="#Projects" data-icon= "info" >Projects</a></li>
-            <li><a href="#Services" data-icon= "info" >Services</a></li>
+    		<li><a href="#Projects" id="projects" data-icon= "custom" >Projects</a></li>
+            <li><a href="#Services" data-icon= "laptop" >Services</a></li>
         </ul>
     </div>
 	<!--Slider-->
     <div data-role="content">
-    	<h3>Touch the photo to find out more about each project featured.</h3>	
+    	<h3>Slide your finger across the photo to see more then touch the photo to find out more about each project featured.</h3>	
 		<div class="flexslider">
   			<ul class="slides">
     			<li>
-      				<a href="#Slider1"><img src="Images/Scott.jpg" alt= "Aerial Photography Website" /></a>
+      				<a href="#Slider1"><img src="Images/Scott.jpg" alt= "Aerial Photography Website" width="600" height="400" 	                    class="photo"/></a			                    >
     			</li>
     			<li>
-      				<a href="#Slider2"><img src="Images/Robot.jpg" alt= "Hovering Robot Assignment" /></a>
+      				<a href="#Slider2"><img src="Images/Robot.jpg" alt= "Hovering Robot Assignment" width="600" height="400" class                    ="photo"/></a>
     			</li>
     			<li>
-      				<a href="#Slider3"><img src="Images/COBOL.jpg" alt= "COBOL Assignment" /></a>
+      				<a href="#Slider3"><img src="Images/COBOL.jpg" alt= "COBOL Assignment" width="600" height="400" class="photo"/                    ></a>
     			</li>
   			</ul>
 		</div>
 		<!--Button to send viewer to main website-->
-        <a href="http://www.silverliningdesignandprogramming.com/home.html?full" data-role="button" > View full Website </a>
+        <a href="http://www.silverliningdesignandprogramming.com/AltHome.html?full" data-role="button" > View full Website </a>
          
 	</div>
     <!--Page Footer-->
@@ -98,7 +98,7 @@
     </div>
     <!--Main body of page-->
     <div data-role="content">	
-		<p>My name is Susan Corbin and I am a 3rd year student from Georgian College in Barrie, Ontario.  At this time I am           looking for a co-op placement which could eventually lead to a full time position.  This website is intended to           introduce you to the work completed and the services available by me as Silver Lining Design and Programming.  Silver            Lining Design and Programming provides services including website design and production, mainframe programming            animation services work with java program language and project management.  All services are provided in a professional           and timely manner with an eye on customer satisfaction in everything I do.</p>
+		<p>My name is Susan Corbin and I am a 3rd year student from Georgian College in Barrie, Ontario.  At this time I am           looking for a co-op placement which could eventually lead to a full time position.  This website is intended to           introduce you to the work completed and the services available by me as Silver Lining Design and Programming.  Silver            Lining Design and Programming provides services including website design and production, mainframe programming            animation services work with java program language and project management.  All services are provided in a            professional and timely manner with an eye on customer satisfaction in everything I do.</p>
         <p>I have always had an interest in computers and how they work.  To be able to work with computers for a living is very 			           exciting to me.  Providing good quality service is important to me because in business today it can be sadly lacking. A           happy customer is the best result you can possibly have after completing a project and having that keeps me working as           hard as I possibly can.</p>
         <h3>Profile</h3>
         <p>Reliable, hardworking computer student wanting to develop mainframe skills or any position that will utilize current           academic knowledge and skills with computer technologies.  Possess excellent work habits and enthusiasm to deliver           quality workmanship and problem solving scenarios.</p>
@@ -192,9 +192,9 @@
     <!--Body of the page-->
     <div data-role="content">	
 		<h3>Click on any of the following pictures to see details of these projects.</h3>
-        <p><a href="#Project1"> <img src="Images/Evan.jpg" alt="Restaurant Website" width="300" height="200" /></a></p>
-        <p><a href="#Project2"> <img src="Images/Project.jpg" alt="Project Management Assignment" width="300" height="200" /></a></p>
-        <p><a href="#Project3"> <img src="Images/Java3.jpg" alt="Java Program" width="300" height="200" /></a></p>		
+        <p><a href="#Project1"> <img src="Images/Evan.jpg" alt="Restaurant Website" width="600" height="400" class="photo"/></a></        p>
+        <p><a href="#Project2"> <img src="Images/Project.jpg" alt="Project Management Assignment" width="600" height="400" class=        "photo"/></a></p>
+        <p><a href="#Project3"> <img src="Images/Java3.jpg" alt="Java Program" width="600" height="400" class="photo"/></a></p>		
 	</div>
     <!--Page Footer-->
 	<div data-role="footer"> 
@@ -226,12 +226,12 @@
     </div>
     <!--Main body of the page-->
     <div data-role="content">	
-		<p><img src="Images/Scott2.jpg" alt="Residential Section of Website" width="300" height="200" /></p>
+		<p><img src="Images/Scott2.jpg" alt="Residential Section of Website" width="600" height="400" class="photo"/></p>
         <p>I have completed several websites for clients in the Toronto area.  They range from aerial photographers to restaurants           and even a culinary school.  My work on these websites included copywriting and logo design as well as the actual 		           coding of the website itself.  As a result of this work I would be interested in a position as a web designer and feel           that I would be of great assistance in that regard.</p>
-        <p><img src="Images/COBOL2.jpg" alt="COBOL Program" width="300" height="332" /></p>
-        <p><img src="Images/JCL.jpg" alt="JCL Program" width="300" height="200" /></p>
+        <p><img src="Images/COBOL2.jpg" alt="COBOL Program" width="600" height="665" class="photo"/></p>
+        <p><img src="Images/JCL.jpg" alt="JCL Program" width="600" height="400" class="photo"/></p>
         <p>At Georgian College I have taken courses in COBOL, Assembler and JCL. These courses are used in mainframe programming. 	           I found them very interesting and challenging.  The COBOL was especially of interest to me.  I found it very fun to do.           A position as a mainframe programmer would also be something that I would be interested in pursuing.</p>
-        <p><img src="Images/Java4.jpg" alt="Java Program" width="300" height="332"/></p>
+        <p><img src="Images/Java4.jpg" alt="Java Program" width="600" height="665" class="photo"/></p>
 		<p>I have also taken two courses in Java programming.  Java is an integral part of many of the technologies that we use 			           today such as laptops, game consoles and of course the games that go with them, cell phones and the Internet.  With           this in mind I think a job in the java programming field would be a great way to get into an ever growing field where there           seems to be limitless possibilities.</p>	
 	</div>
     <!--Page Footer-->
@@ -248,7 +248,7 @@
 	</div>
     <!--Main body of the page-->
     <div data-role="content">	
-		<p><img src="Images/Evan.jpg" alt="Restaurant Website" width="300" height="200" /></p>
+		<p><img src="Images/Evan.jpg" alt="Restaurant Website" width="600" height="400" class="photo"/></p>
         <p>This was a website designed for a new restaurant in Richmond Hill, Ontario.  It entailed 5 pages with a 6 photo           slideshow on the first page and multiple pictures mixed in with text on the menu page. The text and photos were laid           over a blue textured background to give it some depth.</p>	
 	    <!--Button to return to Projects Page-->
         <a href="#Projects" data-role="button" >Back to Projects Page</a>
@@ -267,7 +267,7 @@
 	</div>
     <!--Main body of the page-->
     <div data-role="content">	
-		<p><img src="Images/Project.jpg" alt="Project Management Assignment" width="300" height="200"/></p>
+		<p><img src="Images/Project.jpg" alt="Project Management Assignment" width="600" height="400" class="photo"/></p>
 		<p>This was a project management assignment completed where we had to follow the System Development Life Cycle (SDLC) of a           project from its inception to completion.  It involved the introduction of a new computer server into a company           replacing two antiquated servers in an office with approximately 30 employees.  The installation, testing and transfer           to the new server had to be completed without interuption of service to the employees.  The entire project was           completed using many aspects of Microsoft Project, thus making me very familiar with how it works and the great value           it has in the planning and implementation of a project of any size.</p>	
 	    <!--Button to return to Projects Page-->
         <a href="#Projects" data-role="button" >Back to Projects Page</a>
@@ -286,7 +286,7 @@
 	</div>
     <!--Main body of the page-->
    	<div data-role="content">	
-		<p><img src="Images/Java3.jpg" alt="Java Program" width="300" height="200"/></p>
+		<p><img src="Images/Java3.jpg" alt="Java Program" width="600" height="400" class="photo"/></p>
 		<p>This was a Java program written in my Introduction to Object Oriented Programming course at Georgian College.  It           involved designing a program for a car.  There were four classes for the car: Body, Tank, Engine and Transmission.  			           These classes were responsible for saying things like what the oil level and fuel levels were, whether the car doors           were open or closed, etc.  The abstract class Car took this information and depending on what it found out turned the           car on, moved the car forward and backward, shut the car off and other things.  There was also a tester that told you           the state of the car and gave you a dashboard with all the information on the car i.e. fuel tank level, oil level, etc.       </p>	
 	    <!--Button to return to Projects Page-->
         <a href="#Projects" data-role="button" >Back to Projects Page</a>
@@ -302,7 +302,7 @@
 <div data-role="page" id="Slider1">
 	<!--Main body of the page-->
     <div data-role="content">	
-		<p><img src="Images/Scott.jpg" alt="Aerial Photography Website" width="300" height="200"/></p>
+		<p><img src="Images/Scott.jpg" alt="Aerial Photography Website" width="600" height="400" class="photo"/></p>
         <p>This was a website made for an aerial photographer based out of the GTA.  It involved 5 web pages, a slideshow on           the home page and approximately 60 photographs of homes and commercial properties divided between two web pages.  The           residential web page was divided into photographs of houses, seasonal photographs of the same house and pictorial           histories of a single house taken over the course of many years and incarnations.  I was involved in writing the text           for the website, choosing the photos and all layout designs.</p>	
 	    <!--Button to return to Home Page-->
         <a href="#Home" data-role="button" >Back to Home Page</a>
@@ -318,7 +318,7 @@
 <div data-role="page" id="Slider2">
 	<!--Main body of the page-->
     <div data-role="content">	
-		<p><img src="Images/Robot.jpg" alt="Hovering Robot Assignment" width="300" height="200"/></p>
+		<p><img src="Images/Robot.jpg" alt="Hovering Robot Assignment" width="600" height="400" class="photo"/></p>
 		<p>This was an animation assignment completed in Adobe Flash Professional.  It consisted of a Robot made up of individual 					    	   parts: head, body, arms, hands and propeller.  Each body part had three different styles of part.  When you clicked on 		           each individual body part, they changed from one style to the next.  As well as the body parts changing when you           clicked on them, the Robot hovered above the ground with a slight up and down movement in the Robot and movement in the           various body parts as well to indicate the slight movement in the Robot.  All of this was achieved using ActionScript           language with the Flash Professional program.</p>		
 	    <!--Button to return to Home Page-->
         <a href="#Home" data-role="button" >Back to Home Page</a>
@@ -334,7 +334,7 @@
 <div data-role="page" id="Slider3">
 	<!--Main body of the page-->
     <div data-role="content">	
-		<p><img src="Images/COBOL.jpg" alt="COBOL Assignment" width="600" height="400"/></p>
+		<p><img src="Images/COBOL.jpg" alt="COBOL Assignment" width="600" height="400" class="photo"/></p>
 		<p>This was a COBOL program in which we had to calculate raises for employees in a company in 2 regions and 10 offices who           had been with the company over 10 years.  There were approximately 30 employees and about one third were in that           category.  Within the program I also had to set up headings and set up a sytem that used the current date as input by           the user.</p>	
 	    <!--Button to return to Home Page-->
         <a href="#Home" data-role="button" >Back to Home Page</a>

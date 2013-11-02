@@ -15,6 +15,8 @@ img.first{
 	margin-right:auto;
 	margin-left:auto;
 	display:block;
+	max-width:100%;
+	height:auto;
 	text-align:center;
 }
 
@@ -23,10 +25,35 @@ img.second{
 	margin-right:auto;
 	margin-left:auto;
 	display:block;
+	max-width:100%;
+	height:auto;
 	text-align:center;
 }
 
 /*Puts and 10px space between the LinkedIn logo and the Facebook logo*/
 img.left{
 	margin-right: 10px;
+}
+
+/*Makes photo adjust to the size of the smartphone window*/
+img.photo{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	max-width:100%;
+	height:auto;
+}
+
+#projects .ui-icon {
+	background-image: url(Images/LittleRobot.jpg);
+	background-repeat: no-repeat;
+	width: 24px;
+	height: 24px;	
+}
+
+.ui-icon-laptop {
+	background-image: url(Images/Laptop.jpg);
+	width: 24px;
+    height: 24px; 
+	
 }

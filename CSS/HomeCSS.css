@@ -98,10 +98,16 @@ img.left{
 	margin-right: 1100px;
 }
 
+/*Positions the redirection to the mobile website*/
+#redirect{
+	position:absolute;
+	margin-top: 1350px;
+	margin-left: 350px;
+}
 /*Positions the footer*/
 #footer{
 	position: absolute;
-	margin-top: 1350px;
+	margin-top: 1450px;
 	margin-left: 450px;
 	text-align: center;
 }
