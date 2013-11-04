@@ -44,16 +44,3 @@ img.photo{
 	height:auto;
 }
 
-#projects .ui-icon {
-	background-image: url(Images/LittleRobot.jpg);
-	background-repeat: no-repeat;
-	width: 24px;
-	height: 24px;	
-}
-
-.ui-icon-laptop {
-	background-image: url(Images/Laptop.jpg);
-	width: 24px;
-    height: 24px; 
-	
-}

@@ -4,7 +4,7 @@
 <file name="Contact.html" server="97.74.158.1" local="130271483589550651" remote="130271376600000000" Dst="2" />
 <file name="Github.html" server="97.74.158.1" local="130271483777156802" remote="130271376600000000" Dst="2" />
 <file name="home.html" server="97.74.158.1" local="130278333295599623" remote="130278838200000000" Dst="2" />
-<file name="Mobile.html" server="97.74.158.1" local="130278961733694478" remote="130278855600000000" Dst="2" />
+<file name="Mobile.html" server="97.74.158.1" local="130280069447443332" remote="130279999800000000" Dst="1" />
 <file name="Project1.html" server="97.74.158.1" local="130270584367736245" remote="130270516200000000" Dst="2" />
 <file name="Project2.html" server="97.74.158.1" local="130270584672693687" remote="130270516200000000" Dst="2" />
 <file name="Project3.html" server="97.74.158.1" local="130270585008612901" remote="130270516200000000" Dst="2" />
@@ -16,5 +16,16 @@
 <file name="Slider2.html" server="97.74.158.1" local="130270586854308468" remote="130270516200000000" Dst="2" />
 <file name="Slider3.html" server="97.74.158.1" local="130270587093182131" remote="130270516200000000" Dst="2" />
 <file name="TermsOfUse.html" server="97.74.158.1" local="130270587371248036" remote="130270516200000000" Dst="2" />
-<file name="AltHome.html" server="97.74.158.1" local="130278945280823428" remote="130278837600000000" Dst="2" />
+<file name="AltHome.html" server="97.74.158.1" local="130280007183182020" remote="130279935000000000" Dst="1" />
+<file name="AltContact.html" server="97.74.158.1" local="130279919331530201" remote="130279861800000000" Dst="1" />
+<file name="AltAbout.html" server="97.74.158.1" local="130279918716125002" remote="130279875600000000" Dst="1" />
+<file name="AltGithub.html" server="97.74.158.1" local="130279921658193278" remote="130279876800000000" Dst="1" />
+<file name="AltProject1.html" server="97.74.158.1" local="130279921955330274" remote="130279877400000000" Dst="1" />
+<file name="AltProject2.html" server="97.74.158.1" local="130279922325411441" remote="130279878000000000" Dst="1" />
+<file name="AltProject3.html" server="97.74.158.1" local="130279922661730677" remote="130279879800000000" Dst="1" />
+<file name="AltServices.html" server="97.74.158.1" local="130279925170294159" remote="130279881000000000" Dst="1" />
+<file name="AltSiteMap.html" server="97.74.158.1" local="130279926754614777" remote="130279881000000000" Dst="1" />
+<file name="AltSlider2.html" server="97.74.158.1" local="130279927638685343" remote="130279883400000000" Dst="1" />
+<file name="AltTermsOfUse.html" server="97.74.158.1" local="130279928323084488" remote="130279885800000000" Dst="1" />
+<file name="AltSlider3A.html" server="97.74.158.1" local="130279991958911242" remote="130279920000000000" Dst="1" />
 </dwsync>
