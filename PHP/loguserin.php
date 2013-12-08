@@ -1,14 +1,18 @@
+<!--Mobile Website
+    Susan Corbin
+    silverliningdesignandprogramming.com
+    Business Contact List Section -->
 <!doctype html>
 <html>
 <head>
 <meta charset="utf-8">
 <title>Database Connection</title>
-<link rel="stylesheet" href="CSS/ConnectionCSS.css" />
+
 </head>
 
 <body>
 <?php
-//starts database session
+//starts session
 session_start();
 //connects database
 try{
@@ -53,8 +57,8 @@ if($exists){
 		$_SESSION["username"] = $username;
 		//sends you to Business Contact page is username and password are verified
 		?>
-        <script type= "text/javascript">
-    	window.location = "BusinessContacts.php"
+		<script type= "text/javascript">
+    	window.location = "list.php"
   		</script>
         <?php
 	}

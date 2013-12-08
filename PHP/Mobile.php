@@ -2,6 +2,27 @@
     Susan Corbin
     silverliningdesignandprogramming.com
     Main website page-->
+ <?php
+session_start();
+try{
+	$mySQLusername = 'root';
+	$mySQLpassword = '';
+	$dns = 'mysql:host=localhost;dbname=susan';
+	
+	$database = new PDO($dns, $mySQLusername, $mySQLpassword);
+
+
+}
+catch(PDOException $ex)
+{
+		echo "there is a problem";
+		echo $ex->getMessage();
+		exit();
+}
+
+
+?>
+
 <!DOCTYPE html> 
 <html>
 <head>
@@ -45,6 +66,7 @@
 		<ul>
     		<li><a href="#Projects" data-theme="b" data-icon= "info" >Projects</a></li>
             <li><a href="#Services" data-theme="b" data-icon= "info" >Services</a></li>
+            <li><a href="#Login" data-theme="b" data-icon= "info" >Log In</a></li>
         </ul>
     </div>
 	<!--Slider-->
@@ -92,6 +114,7 @@
 		<ul>
     		<li><a href="#Projects" data-theme="b" data-icon= "info" >Projects</a></li>
             <li><a href="#Services" data-theme="b" data-icon= "info" >Services</a></li>
+        	<li><a href="#Login" data-theme="b" data-icon= "info" >Login</a></li>
         </ul>
         <!--Button to return to Home Page-->
         <a href="#Home" data-role="button" data-theme="b">Back to Home Page</a>
@@ -143,6 +166,7 @@
 		<ul>
         	<li><a href="#Projects" data-theme="b" data-icon= "info" >Projects</a></li>
             <li><a href="#Services" data-theme="b" data-icon= "info" >Services</a></li>
+        	<li><a href="#Login" data-theme="b" data-icon= "info" >Log In</a></li>
         </ul>
         <!--Button to return to Home Page-->
         <a href="#Home" data-role="button" data-theme="b">Back to Home Page</a>
@@ -185,6 +209,7 @@
 		<ul>
         	<li><a href="#Projects" data-theme="b" data-icon= "info" >Projects</a></li>
             <li><a href="#Services" data-theme="b" data-icon= "info" >Services</a></li>
+        	<li><a href="#Login" data-theme="b" data-icon= "info" >Login</a></li>
         </ul>
         <!--Button to return to Home Page-->
         <a href="#Home" data-role="button" data-theme="b">Back to Home Page</a>
@@ -220,6 +245,7 @@
 		<ul>
         	<li><a href="#Projects" data-theme="b" data-icon= "info" >Projects</a></li>
             <li><a href="#Services" data-theme="b" data-icon= "info" >Services</a></li>
+        	<li><a href="#Login" data-theme="b" data-icon= "info" >Login</a></li>
         </ul>
         <!--Button to return to Home Page-->
         <a href="#Home" data-role="button" data-theme="b">Back to Home Page</a>
@@ -240,6 +266,7 @@
         <h4>Design and Programming 2013</h4>
 	</div>
 </div>
+
 
 <!--Project1 Page-->
 <div data-role="page" id="Project1">
@@ -345,5 +372,46 @@
         <h4>Design and Programming 2013</h4>
 	</div>
 </div>
+
+
+<div data-role="page" id="Login">
+	<div data-role="header" data-theme="a">
+		<h1>Log In</h1>
+	</div>
+    <!--Navigation Bar-->
+    <div data-role="navbar" data-iconpos="top">	
+		<ul>	
+            <li><a href="#Home" data-theme="b" data-icon="home" >Home</a></li>
+            <li><a href="#About" data-theme="b" data-icon="info" >About</a></li>
+			<li><a href="#Contact" data-theme="b" data-icon="search" >Contact</a></li>
+        </ul>		
+	</div>
+	<div data-role="navbar" data-iconpos="top">	
+		<ul>
+        	<li><a href="#Projects" data-theme="b" data-icon= "info" >Projects</a></li>
+            <li><a href="#Services" data-theme="b" data-icon= "info" >Services</a></li>
+        	<li><a href="#Login" data-theme="b" data-icon= "info" >Login</a></li>
+        </ul>
+        <!--Button to return to Home Page-->
+        <a href="#Home" data-role="button" data-theme="b">Back to Home Page</a>
+    </div>
+    <!--Main body of the page-->
+    <div data-role="content">
+    	<!--Login to Business Contact area-->
+   		<form action="loguserin.php" method="post">
+        	Name: <input type="text" name="username"><br>
+            Password: <input type="password" name="password"><br>
+            <input type="submit" name="submit">
+		</form>
+   	</div>  
+	
+    <!--Page Footer-->
+	<div data-role="footer" data-theme="a">
+		<h4>&copy; Copyright Silver Lining</h4>
+        <h4>Design and Programming 2013</h4>
+	</div>
+    
+</div>
+
 </body>
 </html>
