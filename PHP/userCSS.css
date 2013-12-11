@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background: #06F;
+	color:white;
+	font-family: "Enriqueta", sans serif;
+	font-size:18px; 
+}
+
+table{
+	margin: 0px auto;
+    text-align: center;
+}
+
+#button{
+	margin-top: 100px;
+	text-align: center;
+}
+
+#footer{
+	text-align: center;
+	margin-top: 100px;
+}
+
+a{
+	color: #C09;
+	text-decoration:none;
+}
+
+a:hover{
+	color: #C9F;
+}
+
+

@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background: #06F;
+	color:white;
+	font-family: "Enriqueta", sans serif;
+	font-size:18px; 
+}
+
+/*Centering of Nav bar*/
+#header{
+	text-align:center;
+	font-size:30px;
+}
+#login{
+	text-align:center;
+	margin-top:250px;
+	
+}
+
+.currentPage
+{
+	color:#906;
+}
+
+/*Controls for Nav bar*/
+a{
+	color: #C09;
+	text-decoration:none;
+}
+
+a:hover{
+	color: #C9F;
+}
+
+#footer{
+	text-align:center;
+	margin-top: 150px;
+}

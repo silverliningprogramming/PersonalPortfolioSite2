@@ -3,11 +3,11 @@
     silverliningdesignandprogramming.com
     Main website page-->
  <?php
-session_start();
+//session_start();
 try{
-	$mySQLusername = 'root';
-	$mySQLpassword = '';
-	$dns = 'mysql:host=localhost;dbname=susan';
+	$mySQLusername = 'Christians';
+	$mySQLpassword = 'Christian#1';
+	$dns = 'mysql:host=Christians.db.11874702.hostedresource.com;dbname=Christians';
 	
 	$database = new PDO($dns, $mySQLusername, $mySQLpassword);
 
@@ -30,9 +30,9 @@ catch(PDOException $ex)
 <title>Mobile Site</title>
 <link href="http://fonts.googleapis.com/css?family=Enriqueta" rel="stylesheet" type="text/css">
 <meta name = "viewport" content = "width=device-width, height=device-height, initial-scale=1">
-<link rel="stylesheet" href="CSS/MobileCSS.css" />
+<link rel="stylesheet" href="MobileCSS.css" />
 
-<link rel="stylesheet" href="CSS/themes/Susan1.min.css" />
+
 <link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.css" />
 <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
 <script src="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.js"></script>

@@ -1,0 +1,78 @@
+/*Mobile Website
+  Susan Corbin
+  silverliningdesignandprogramming.com
+  CSS for Mobile  and Business Contact List pages*/
+  
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	font-family: "Enriqueta", sans serif;
+	background: #0CF;
+}
+
+/*Centres logo on the screen*/
+img.first{
+	margin-right:auto;
+	margin-left:auto;
+	display:block;
+	max-width:100%;
+	height:auto;
+	text-align:center;
+}
+
+/*Centres photo of me on the screen*/
+img.second{
+	margin-right:auto;
+	margin-left:auto;
+	display:block;
+	max-width:100%;
+	height:auto;
+	text-align:center;
+}
+
+/*Puts and 10px space between the LinkedIn logo and the Facebook logo*/
+img.left{
+	margin-right: 10px;
+}
+
+/*Makes photo adjust to the size of the smartphone window*/
+img.photo{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	max-width:100%;
+	height:auto;
+}
+
+#list{
+	text-align: center;
+}
+
+a{
+	color: #000;
+	text-decoration:none;
+}
+
+a:hover{
+	color: #666;
+}
+
+#logout{
+	text-align: center;
+}
+
+table{
+	margin: 0px auto;
+    text-align: center;
+}
+
+#button{
+	text-align: center;
+	margin-top: 25px;
+}
+
+#footer{
+	text-align: center;
+}
+

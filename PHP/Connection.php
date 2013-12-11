@@ -3,18 +3,18 @@
 <head>
 <meta charset="utf-8">
 <title>Database Connection</title>
-<link rel="stylesheet" href="CSS/ConnectionCSS.css" />
+<link rel="stylesheet" href="ConnectionCSS.css" />
 </head>
 
 <body>
 <?php
 //starts database session
-session_start();
+//session_start();
 //connects database
 try{
-	$mySQLusername = 'root';
-	$mySQLpassword = '';
-	$dns = 'mysql:host=localhost;dbname=susan';
+	$mySQLusername = 'Christians';
+	$mySQLpassword = 'Christian#1';
+	$dns = 'mysql:host=Christians.db.11874702.hostedresource.com;dbname=Christians';
 	
 	$database = new PDO($dns, $mySQLusername, $mySQLpassword);
 

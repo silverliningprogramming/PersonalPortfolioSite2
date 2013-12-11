@@ -4,18 +4,18 @@
 <meta charset="utf-8">
 <title>User Info</title>
 <link href="http://fonts.googleapis.com/css?family=Enriqueta" rel="stylesheet" type="text/css">
-<link rel="stylesheet" href="CSS/userCSS.css" />
+<link rel="stylesheet" href="userCSS.css" />
 </head>
 
 <body>
 <?php
 //Keeps session going
-session_start();
+//session_start();
 //Keeps database connected
 try{
-	$mySQLusername = 'root';
-	$mySQLpassword = '';
-	$dns = 'mysql:host=localhost;dbname=susan';
+	$mySQLusername = 'Christians';
+	$mySQLpassword = 'Christian#1';
+	$dns = 'mysql:host=Christians.db.11874702.hostedresource.com;dbname=Christians';
 	
 	$database = new PDO($dns, $mySQLusername, $mySQLpassword);
 
@@ -58,8 +58,7 @@ foreach($result as $row){
 
 <!--Footer for the page-->
 <div id="footer">
-	<p><a href="TermsOfUse.html">Terms of Use</a><a href="SiteMap.html">Site Map</a></p>
-    <p>&copy; Copyright Silver Lining Design and Programming 2013</p>
+	<p>&copy; Copyright Silver Lining Design and Programming 2013</p>
 </div>
 
 </body>

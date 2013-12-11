@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <title>Login Screen</title>
 <link href="http://fonts.googleapis.com/css?family=Enriqueta" rel="stylesheet" type="text/css">
-<link rel="stylesheet" href="CSS/LoginCSS.css" />
+<link rel="stylesheet" href="LoginCSS.css" />
 </head>
 
 <body>
@@ -28,8 +28,7 @@
 ?>
 <!--Footer for the page-->
 <div id="footer">
-	<p><a href="TermsOfUse.html">Terms of Use</a><a href="SiteMap.html">Site Map</a></p>
-    <p>&copy; Copyright Silver Lining Design and Programming 2013</p>
+	<p>&copy; Copyright Silver Lining Design and Programming 2013</p>
 </div>
 
 </body>

@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <title>Business Contacts</title>
 <link href="http://fonts.googleapis.com/css?family=Enriqueta" rel="stylesheet" type="text/css">
-<link rel="stylesheet" href="CSS/BusinessContactsCSS.css" />
+<link rel="stylesheet" href="BusinessContactsCSS.css" />
 </head>
 
 <body>
@@ -13,12 +13,12 @@
 
 <?php
 //keeps database session going
-session_start();
+//session_start();
 //keeps database connected
 try{
-	$mySQLusername = 'root';
-	$mySQLpassword = '';
-	$dns = 'mysql:host=localhost;dbname=susan';
+	$mySQLusername = 'Christians';
+	$mySQLpassword = 'Christian#1';
+	$dns = 'mysql:host=Christians.db.11874702.hostedresource.com;dbname=Christians';
 	
 	$database = new PDO($dns, $mySQLusername, $mySQLpassword);
 
@@ -66,8 +66,7 @@ if (!$result) { // add this check.
 
 <!--Footer for the page-->
 <div id="footer">
-	<p><a href="TermsOfUse.html">Terms of Use</a><a href="SiteMap.html">Site Map</a></p>
-    <p>&copy; Copyright Silver Lining Design and Programming 2013</p>
+	<p>&copy; Copyright Silver Lining Design and Programming 2013</p>
 </div>
 
 </body>

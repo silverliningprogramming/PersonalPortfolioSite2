@@ -7,18 +7,18 @@
 <head>
 <meta charset="utf-8">
 <title>Business Contacts</title>
-<link rel="stylesheet" href="CSS/MobileCSS.css" />
+<link rel="stylesheet" href="MobileCSS.css" />
 </head>
 
 <body>
 <?php
 //continues session
-session_start();
+//session_start();
 //keeps database connected
 try{
-	$mySQLusername = 'root';
-	$mySQLpassword = '';
-	$dns = 'mysql:host=localhost;dbname=susan';
+	$mySQLusername = 'Christians';
+	$mySQLpassword = 'Christian#1';
+	$dns = 'mysql:host=Christians.db.11874702.hostedresource.com;dbname=Christians';
 	
 	$database = new PDO($dns, $mySQLusername, $mySQLpassword);
 
@@ -57,12 +57,14 @@ if (!$result) { // add this check.
 ?>
 
 <!--Button to go to Log Out page-->
-<a href="signout.php" data-role="button" data-theme="b">Log Out</a>
+
+<div id="button">
+	<a href="signout.php" data-role="button" data-theme="b">Log Out</a>
+</div>
 
 <!--Footer for the Page-->
-<div data-role="footer" data-theme="a">
-		<h4>&copy; Copyright Silver Lining</h4>
-        <h4>Design and Programming 2013</h4>
+<div id="footer">
+	<p>&copy; Copyright Silver Lining Design and Programming 2013</p>
 </div>	
 
 </body>

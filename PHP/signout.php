@@ -7,7 +7,7 @@
 <head>
 <meta charset="utf-8">
 <title>Logout</title>
-<link rel="stylesheet" href="CSS/MobileCSS.css" />
+<link rel="stylesheet" href="MobileCSS.css" />
 </head>
 
 <body>
@@ -16,9 +16,9 @@
 session_start();
 //Keeps database connected
 try{
-	$mySQLusername = 'root';
-	$mySQLpassword = '';
-	$dns = 'mysql:host=localhost;dbname=susan';
+	$mySQLusername = 'Christians';
+	$mySQLpassword = 'Christian#1';
+	$dns = 'mysql:host=Christians.db.11874702.hostedresource.com;dbname=Christians';
 	
 	$database = new PDO($dns, $mySQLusername, $mySQLpassword);
 
@@ -40,12 +40,14 @@ session_destroy();
 </div>
 
 <!--Sends the user back to the website Home Page-->
-<a href="Mobile.php#Home" data-role="button" data-theme="b">Back to Home Page</a>
+
+<div id="button">
+	<a href="Mobile.php#Home" data-role="button" data-theme="b">Back to Home Page</a>
+</div>
 
 <!--Footer for the Page-->
-<div data-role="footer" data-theme="a">
-		<h4>&copy; Copyright Silver Lining</h4>
-        <h4>Design and Programming 2013</h4>
+<div id="footer">
+	<p>&copy; Copyright Silver Lining Design and Programming 2013</p>
 </div>	
 
 </body>
